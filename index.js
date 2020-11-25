@@ -4,7 +4,7 @@ const cors = require("cors");
 const dotenv = require("dotenv");;
 
 const port = process.env.PORT || 3000;
-const dbUrl = process.env.DBURL || "mongodb+srv://rcmk:Hm6hGfpOyzIqq6Gm@cluster0.pyaww.mongodb.net/<dbname>?retryWrites=true&w=majority";
+const dbUrl = process.env.DBURL;
 
 const app = express();
 
