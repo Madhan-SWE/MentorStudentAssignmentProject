@@ -1,4 +1,4 @@
-const URL = "http://127.0.0.1:3000";
+const URL = "https://mentorstudentassignmentproject.herokuapp.com";
 
 function checkNull(item, itemName) {
     if (item.length === 0) {
